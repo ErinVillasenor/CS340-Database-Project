@@ -1,0 +1,44 @@
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+<script src="characterAura.js"></script>
+
+<ul id="menu">
+	<li class="line"><a href="/">Home</a></li>
+	<li class="line"><a href="/characters">Characters</a></li>
+	<li class="line"><a href="/characterff">Character Relationships</a></li>
+	<li class="line"><a href="/characterorg">Character Organization Loyalties</a></li>
+	<li class="line active"><a href="/characteraur">Character Aura Types</a></li>
+	<li class="line"><a href="/organizations">Organizations</a></li>
+	<li class="line"><a href="/locations">Locations</a></li>
+	<li class="line"><a href="/aura-types">Aura Types</a></li>
+</ul>
+
+<form action="/CharAurAdd" method="get"> Add A Character-Aura Relationship<br>
+	
+	Select your character
+	<select name="character" id="character" >
+				<option value="character">This will be a list of characters</option>
+
+	</select>
+		
+
+		
+	Select your Aura
+	<select name="Aura" id="Aura" >
+						<option value="character">This will be a list of auras</option>
+
+	</select>
+		
+	<input type="submit" value="Add" id="add">
+</form>
+
+<br><br><br>
+
+<form action="/characteraurDel"> Delete Aura Types
+	<select name="character" id="character3">
+		<option value="character">This will be a list of characters</option>
+	</select>
+	<input type="submit" value="populate" id="populate">
+</form>
+	<ul id="fflist">
+		<li>This will be a list of Aura Types associated with the character<input type="submit" value="Delete" id="Delete"></li>
+	</ul>

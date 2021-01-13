@@ -1,0 +1,181 @@
+#menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  overflow:hidden;
+  background-color: #cc0000 ;
+}
+
+.line {
+	
+	
+	
+	float:left;
+
+	border-right:1px solid #e4e1da;
+}
+
+.line a{
+	
+	display:inline-block;
+	text-decoration: none;
+	color:#e4e1da;
+	padding:15px 16px;
+
+}
+
+.line :hover{
+
+	background-color: #800000;
+}
+
+#menu .active{
+
+	background-color: #600000; 
+}
+.carousel{
+	max-width:1500px;
+	position: relative;
+	margin: auto;
+}
+
+.slide{
+	display: none;
+}
+
+.caption{
+	color: #e4e1da;
+	font-size: 10px;
+	padding:8px 12px;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+
+}
+
+#prev, #next{
+  	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 14px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 6px 6px 0;
+	user-select: none;
+}
+
+#next{
+	right: 0;
+	border-radius: 6px 0 0 6px;
+}
+
+#prev:hover,#next:hover{
+	background-color:rgba(0,0,0,0.6);
+}
+
+.dot{
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0px 2px;
+	background-color: #bbb;
+	border-radius: 30%;
+	display: inline-block;
+	transition: background-color 0.5s ease;
+	
+	
+}
+
+.counter{
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+.active, .dot:hover{
+	background-color: #717171;
+}
+
+.fade{
+	  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+body{
+	background-color: #e4e1da;
+}
+
+.column{
+	float:left;
+	width: 33.33%;
+	height:350px;
+
+}
+.column2{
+	float:left;
+	width: 33.33%;
+	overflow: auto;
+	height: 850px;
+
+}
+.row:after{
+	content: "";
+	display: table;
+}
+
+
+p{
+	width:70%;
+	margin-left: 15%;
+	
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#arc{
+	background-color: #b3ecff;
+}
+
+#frag{
+	background-color: #ffa366;
+}
+
+#therm{
+	background-color: #ff6666
+}
+
+.level2{
+	font-style: normal;
+	color: blue;
+}
+.level3{
+	font-style: normal;
+	color: purple;
+}
+.level4{
+	font-style: normal;
+	color: #e6b800;
+}
