@@ -1,1 +1,1 @@
-Erin Villasenor and Jacob Mandich worked on this project together in Spring term 2018 for CS340 Introduction to Databases at Oregon State University. A user can add, delete, and edit a character's associated allies, enemies, origin, and specialty. This project uses JavaScript and SQL.
+Erin Villasenor and Jacob Mandich worked on this project together in Spring term 2019 for CS340 Introduction to Databases at Oregon State University. A user can add, delete, and edit a character's associated allies, enemies, origin, and specialty. This project uses JavaScript and SQL.
